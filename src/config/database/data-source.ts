@@ -1,6 +1,6 @@
 import "reflect-metadata"
 import { DataSource, DataSourceOptions } from "typeorm"
-import { User } from "../../constant/database/model/user/user.entity";
+import { User } from "../../constant/database/model/user.entity";
 import * as dotenv from 'dotenv';
 
 dotenv.config();
