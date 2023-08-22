@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
-import { SupabaseService } from './supabase.service';
-import { ConfigModule, ConfigService } from '@nestjs/config';
-import { JwtAuthService } from 'src/jwt/jwt.service';
+import { ConfigModule } from '@nestjs/config';
 import { JwtService } from '@nestjs/jwt';
+import { JwtAuthService } from 'src/config/jwt/jwt.service';
+import { SupabaseService } from './supabase.service';
 
 @Module({
   imports: [ConfigModule],

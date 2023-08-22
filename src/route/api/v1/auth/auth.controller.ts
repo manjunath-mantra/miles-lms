@@ -1,6 +1,6 @@
 import { Controller, Post, Body, HttpException, HttpStatus } from '@nestjs/common';
-import { SupabaseService } from '../../../../config/supabase/supabase.service';
-import { JwtAuthService } from '../../../../jwt/jwt.service';
+import { SupabaseService } from 'src/config/supabase/supabase.service';
+import { JwtAuthService } from 'src/config/jwt/jwt.service';
 import { AuthResponse, AuthTokenResponse, User } from '@supabase/supabase-js'; 
 
 @Controller()

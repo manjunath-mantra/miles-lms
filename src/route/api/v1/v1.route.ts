@@ -1,4 +1,4 @@
-import { AuthModule } from "src/jwt/jwt.module";
+import { AuthModule } from "src/config/jwt/jwt.module";
 import { UserModule } from "./user/user.module";
 
 export const V1Routes = [
