@@ -8,11 +8,11 @@ dotenv.config();
 export const Appdatasource:DataSourceOptions = {
 
     type: "postgres",
-    host:  process.env.DB_HOST,
+    host:  "db.ozjhnxplutqcsmxyopyt.supabase.co",//process.env.DB_HOST,
     port: 5432,
-    username: process.env.DB_USER,
-    password:  process.env.DB_PASSWORD,
-    database:  process.env.DATABAS,
+    username:"postgres",// process.env.DB_USER,
+    password: "PkSgfSrKSngVotwo",// process.env.DB_PASSWORD,
+    database: "postgres",// process.env.DATABAS,
     synchronize: false,
     ssl: {
         rejectUnauthorized: false,
